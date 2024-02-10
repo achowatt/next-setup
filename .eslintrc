@@ -1,0 +1,18 @@
+{
+  "extends": ["next/core-web-vitals", "airbnb-base", "airbnb-typescript/base", "prettier"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "import/extensions": "off"
+  },
+  "ignorePatterns": [
+    "node_modules",
+    ".next",
+    "public",
+    "postcss.config.cjs",
+    "prettier.config.cjs",
+    "next.config.mjs",
+    "MongoDB-Playgrounds/*"
+  ]
+ }
